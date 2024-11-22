@@ -4,7 +4,7 @@ const button = () => {
   return (
     <div>
      <a
-            href="/src/images/Profile.pdf"
+            href="/src/Profile.pdf"
             download
             className="download-btn"
             onClick={(e) => {

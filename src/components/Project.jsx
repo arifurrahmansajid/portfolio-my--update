@@ -24,7 +24,7 @@ function Projects() {
                 "
                 techno1="ReactJS"
                 techno2="CSS"
-                code="https://github.com/farhanshahriyar/Deliveryoo"
+                code="https://github.com/arifurrahmansajid/Deliveryoo"
                 demo="https://deliveryoobd.netlify.app/"
                 scrollY="-74%"
                 icon="🚚"
@@ -38,7 +38,7 @@ function Projects() {
                 techno1="HTML5"
                 techno2="CSS"
                 techno3="Vanila JS"
-                code="https://github.com/farhanshahriyar/foodies"
+                code="https://github.com/arifurrahmansajid/foodies-main"
                 demo="https://foodiesbd.netlify.app/"
                 scrollY="-83%"
                 icon="🛒"
@@ -52,7 +52,7 @@ function Projects() {
                 techno2="CSS"
                 techno3="Material UI"
                 techno4="SC"
-                code="https://github.com/farhanshahriyar/HyperTouch-frontend"
+                code="https://github.com/arifurrahmansajid/HyperTouch"
                 demo="https://hypertouch.netlify.app/"
                 scrollY="-74%"
                 icon="🚗"
@@ -67,7 +67,7 @@ function Projects() {
                 techno2="CSS"
                 techno3="Firebase"
                 techno4="Material UI"
-                code="https://github.com/farhanshahriyar/Venture-Shop"
+                code="https://github.com/arifurrahmansajid/Venture-Shop"
                 demo="https://ventureshop.netlify.app/"
                 scrollY="-89%"
                 icon="🛒"
@@ -80,7 +80,7 @@ function Projects() {
                 techno1="HTML5"
                 techno2="CSS"
                 techno3="Vanila JS"
-                code="https://github.com/farhanshahriyar/dhakafc"
+                code="https://github.com/arifurrahmansajid/dhakafc"
                 demo="https://dhakafcbd.netlify.app/"
                 scrollY="-71%"
                 icon="🛒"
@@ -93,11 +93,12 @@ function Projects() {
                 techno1="ReactJS"
                 techno2="CSS"
                 techno3="React Icons"
-                code="https://github.com/farhanshahriyar/GYM-Website-2.0"
+                code="https://github.com/arifurrahmansajid/React-GYM_website?tab=readme-ov-file"
                 demo="https://gym-website-bd.netlify.app/"
                 scrollY="-83%"
                 icon="🏋️"
               />
+              
             </div>
           </div>
         </div>

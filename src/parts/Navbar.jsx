@@ -1,7 +1,5 @@
 import { useState } from "react";
 import "./style.css";
-
-import { HiOutlineMenuAlt3 } from "react-icons/hi";
 import { FaXmark } from "react-icons/fa6";
 
 function Navbar() {
@@ -41,7 +39,7 @@ function Navbar() {
 
           <li onClick={() => hamburgerMenu()}>
           
-           <i className="fa-solid fa-bars-staggered mobile-menu"><HiOutlineMenuAlt3 /></i>
+           <i className="fa-solid fa-bars-staggered mobile-menu"></i>
           </li>
         </ul>
       </nav>

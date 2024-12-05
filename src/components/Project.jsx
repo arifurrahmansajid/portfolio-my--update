@@ -34,7 +34,7 @@ Explore our range of beautiful properties with the addition of separate accommod
               /> 
             
               <ProBox
-                title="TaxiUp"
+                title="WanderVenture"
                 img={Wander}
                 description="WanderVenture is a user-friendly online travel and tourism management website that is very helpful in finding your dream spot to visit. 
                 "

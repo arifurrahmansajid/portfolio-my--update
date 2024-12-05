@@ -7,7 +7,7 @@ import Js from "../images/icons/javascript.svg";
 import React from "../images/icons/react.svg";
 import Tailwind from "../images/icons/tailwind.svg";
 import Sass from "../images/icons/sass.svg";
-
+import { FaDownload } from 'react-icons/fa';
 import Button from '../components/button';
 
 
@@ -48,7 +48,24 @@ function Hero() {
 
                 </span>
 
-<Button/>
+
+
+<a
+            href="https://drive.google.com/drive/folders/1Lwe4GXqBNgMb0hnC3xxT18dJSwZfRv-z"
+            aria-label="resume" rel="noreferrer" target="_blank"
+            download
+            className="download-btn"
+            onClick={(e) => {
+              const btn = e.currentTarget;
+              btn.classList.add('downloading');
+              setTimeout(() => {
+                btn.classList.remove('downloading');
+              }, 3000);
+            }}
+          >
+            <FaDownload className="download-icon" />
+            <span>Download CV</span>
+          </a>
 
               </div>
 

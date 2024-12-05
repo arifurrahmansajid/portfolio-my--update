@@ -1,10 +1,14 @@
 import VentureShop from "../images/VentureShop-FullView.png";
 import DhakaFC from "../images/DhakaFC-FullView.png";
 import ProBox from "./ProBox.jsx";
-import FoodiesWebApp from "../images/FoodiesWebsite-Full.png";
+//import FoodiesWebApp from "../images/FoodiesWebsite-Full.png";
 import HyperTouch from "../images/HyperTouch-fulllview.png";
-import Gymnation from "../images/GymNation.png"
+//import Gymnation from "../images/GymNation.png"
 import Deliveryooo from "../images/Deliveryoo Web.png"
+import TaxiUp from "../images/screencapture-localhost-3000-2024-11-24-21_54_08 (1).png"
+import Eatgood from "../images/EATBEST.png"
+import Wander from "../images/Wanderventure.png"
+import Residence from "../images/Residence.png"
 
 function Projects() {
   return (
@@ -15,7 +19,46 @@ function Projects() {
             <p>portfolio</p>
             <h3>Each project is a unique piece of development 🧩</h3>
             <div className="projects-grid">
-              
+               <ProBox
+               title="Residence"
+                img={Residence}
+                description="Let s hunt for your dream residence
+Explore our range of beautiful properties with the addition of separate accommodation suitable for you."
+                techno1="React Js"
+                techno2="Tailwind CSS"
+                code="https://github.com/arifurrahmansajid/Residence"
+                demo="https://residence-three.vercel.app/"
+                scrollY="-83%"
+                icon="🏠"
+ 
+              /> 
+            
+              <ProBox
+                title="TaxiUp"
+                img={Wander}
+                description="WanderVenture is a user-friendly online travel and tourism management website that is very helpful in finding your dream spot to visit. 
+                "
+                techno1="ReactJS"
+                techno2="NodeJS"
+                code="https://github.com/arifurrahmansajid/WanderVenture"
+                demo="https://effortless-semolina-2fc164.netlify.app"
+                scrollY="-74%"
+                icon="✈️"
+
+              />
+              <ProBox
+                title="TaxiUp"
+                img={TaxiUp}
+                description="A NextJs Sass Project for taxi driver made with NextJs and Tailwindcss. 
+                "
+                techno1="NextJs"
+                techno2="Tailwindcss"
+                code="https://github.com/arifurrahmansajid/TaxiUp"
+                demo="https://taxi-up-sigma.vercel.app/"
+                scrollY="-74%"
+                icon="🚗"
+
+              />
 
               <ProBox
                 title="Deliveryooo"
@@ -28,13 +71,13 @@ function Projects() {
                 demo="https://deliveryoobd.netlify.app/"
                 scrollY="-74%"
                 icon="🚚"
-                cName="reversed-proj"
+              //cName="reversed-proj"
               />
 
-              <ProBox
-                title="Foodies E-Commerce"
+              {/*  <ProBox
+               title="Foodies E-Commerce"
                 img={FoodiesWebApp}
-                description="Foodies is a site dedicated to quick meals. This shop has a wide selection of tasty salads and other dishes."
+                description=""
                 techno1="HTML5"
                 techno2="CSS"
                 techno3="Vanila JS"
@@ -42,8 +85,22 @@ function Projects() {
                 demo="https://foodiesbd.netlify.app/"
                 scrollY="-83%"
                 icon="🛒"
+ 
+              /> 
+*/}
+              <ProBox
+                title="Eat the best"
+                img={Eatgood}
+                description="Foodies is a site dedicated to quick meals. This shop has a wide selection of tasty salads and other dishes."
+                techno1="HTML"
+                techno2="CSS"
+                techno3="React Icons"
+                code="https://github.com/arifurrahmansajid/Food-website?tab=readme-ov-file"
+                demo="https://stately-nougat-dc92ba.netlify.app"
+                scrollY="-83%"
+                icon="🍔"
               />
-
+{/* 
               <ProBox
                 title="HyperTouch"
                 img={HyperTouch}
@@ -56,9 +113,9 @@ function Projects() {
                 demo="https://hypertouch.netlify.app/"
                 scrollY="-74%"
                 icon="🚗"
-                cName="reversed-proj"
-              />
 
+              />
+*/}
               <ProBox
                 title="VentureShop"
                 img={VentureShop}
@@ -72,11 +129,11 @@ function Projects() {
                 scrollY="-89%"
                 icon="🛒"
               />
-
+  
               <ProBox
                 title="DhakaFC Restro E-Commerce"
                 img={DhakaFC}
-                description="DhakaFC is a responsive Fast Food website, where you can order delicious noodles, burgers, chicken and more from the comfort of your own home. With our user-friendly interface getting your favorite meals has never been easier."
+                description="DhakaFC is a responsive Fast Food website,  noodles, burgers, chicken and more from the comfort of your own home."
                 techno1="HTML5"
                 techno2="CSS"
                 techno3="Vanila JS"
@@ -84,21 +141,12 @@ function Projects() {
                 demo="https://dhakafcbd.netlify.app/"
                 scrollY="-71%"
                 icon="🛒"
-                cName="reversed-proj"
+
               />
-              <ProBox
-                title="Gym Nation"
-                img={Gymnation}
-                description="Gym Nation is a website where people can buy their perfect gym equipment."
-                techno1="ReactJS"
-                techno2="CSS"
-                techno3="React Icons"
-                code="https://github.com/arifurrahmansajid/React-GYM_website?tab=readme-ov-file"
-                demo="https://gym-website-bd.netlify.app/"
-                scrollY="-83%"
-                icon="🏋️"
-              />
-              
+             
+          
+
+
             </div>
           </div>
         </div>

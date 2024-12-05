@@ -959,7 +959,7 @@
       margin: 0.2rem 0;
       position: relative;
       overflow: hidden;
-      font-size: 1.3rem;
+      font-size: 1.4rem;
       font-family: "Poppins", sans-serif;
       border:2px solid black;
       border-radius: 20px;
@@ -986,7 +986,7 @@
           left: 0;
           width: 0%;
           height: 2px;
-          background-color: #fb4614;
+          background-color: #44174E;
           animation: loadingLine 3s ease;
         }
       }
@@ -1030,7 +1030,25 @@
     .hero-text {
       .download-btn {
         margin: 1.5rem auto;
+        color:black ;
+      }
+    }
+  }
+  @media (max-width: 768px) {
+    .hero-text {
+      .download-btn {
+        margin: 1.5rem auto;
+        color:black ;
+      }
+    }
+  }
+  @media (max-width: 480px) {
+    .hero-text {
+      .download-btn {
+        margin: 1.5rem auto;
+        color:black ;
         
       }
     }
   }
+  

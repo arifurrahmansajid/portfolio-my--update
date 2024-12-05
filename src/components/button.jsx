@@ -18,6 +18,7 @@ const button = () => {
             <FaDownload className="download-icon" />
             <span>Download CV</span>
           </a>
+          
     </div>
   );
 }

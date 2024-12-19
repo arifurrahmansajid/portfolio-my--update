@@ -18,11 +18,11 @@ function AboutMe() {
             <div className="text-side">
               <h4>About me</h4>
               <h3>
-                A dedicated Front-end Developer <br /> based in Dhaka, Bangladesh.
+                A dedicated MERN stack Developer <br /> based in Dhaka, Bangladesh.
                 📍
               </h3>
               <p>
-              I have a wide range of knowledge in HTML, CSS, JavaScript, React, Tailwind, and SCSS, making me an excellent candidate for the position of Junior Front-End Developer. I have extensive expertise creating and managing user-friendly, responsive websites. I am an expert at making interactive, modern user interfaces by using modern development tools and methodologies to write clean, optimized code. I am also an excellent team player who enjoys working in interdisciplinary groups to create cutting-edge online apps.
+              I have a wide range of knowledge in HTML, CSS, JavaScript, React, Tailwind, and Bootstarp making me an excellent candidate for the position of Junior Front-End Developer. I have extensive expertise creating and managing user-friendly, responsive websites. I am an expert at making interactive, modern user interfaces by using modern development tools and methodologies to write clean, optimized code. I am also an excellent team player who enjoys working in interdisciplinary groups to create cutting-edge online apps.
               </p>
             </div>
           </div>

@@ -5,7 +5,7 @@ import Projects from '../components/Project'
 import Footer from '../parts/Footer'
 import Hero from '../parts/Hero'
 import Navbar from '../parts/Navbar'
-import AdditionalSkills from '../components/AdditionalSkills'
+//import AdditionalSkills from '../components/AdditionalSkills'
 
 const Home = () => {
   return (
@@ -14,7 +14,7 @@ const Home = () => {
         <Hero/>
         <AboutMe/>
         <Projects/>
-        <AdditionalSkills/>
+        
         <Contact/>
         <Footer/>
     </div>

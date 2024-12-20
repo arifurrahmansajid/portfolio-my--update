@@ -50,7 +50,7 @@ function Hero() {
 
 
           {/* Download Resume Button */}
-          <div style={{ marginTop: "1rem" }}>
+      {/*    <div style={{ marginTop: "1rem" }}>
             <a
               href="https://drive.google.com/file/d/1L_3wlV9CScwBM3y3C1oQgC7YOpJx72eN/view" // Path to your resume file
               download="Md_Arifur_Rahman_Resume.pdf" // Name of the downloaded file
@@ -79,7 +79,7 @@ function Hero() {
               <span>Download Resume</span>
             </a>
           </div>
-
+*/}
               </div>
 
 

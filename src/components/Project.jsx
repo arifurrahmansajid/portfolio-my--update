@@ -46,7 +46,7 @@ Explore our range of beautiful properties with the addition of separate accommod
                 icon="✈️"
 
               />
-              <ProBox
+           {/*   <ProBox
                 title="TaxiUp"
                 img={TaxiUp}
                 description="A NextJs Sass Project for taxi driver made with NextJs and Tailwindcss. 
@@ -58,7 +58,9 @@ Explore our range of beautiful properties with the addition of separate accommod
                 scrollY="-74%"
                 icon="🚗"
 
-              />
+              />    
+
+           */}
 
               <ProBox
                 title="Deliveryooo"

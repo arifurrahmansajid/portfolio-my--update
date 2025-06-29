@@ -1,6 +1,9 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
+import { FaArrowRight } from "react-icons/fa";
 
 function ProBox({
+  id, // added id prop
   title,
   img,
   description,
@@ -41,7 +44,6 @@ function ProBox({
           <div className="stack">
             <p>{techno1}</p>
             <p>{techno2}</p>
-           
           </div>
           <div className="links">
             <a target="_blank" href={code} rel="noreferrer">
@@ -51,6 +53,11 @@ function ProBox({
               Live Demo
               <i className="fa-solid fa-arrow-up-right-from-square link-icon"></i>
             </a>
+              <div className="details-btn-container">
+            <Link to={`/projects/${id}`} className="details-btn flex items-center gap-2">
+              Details <FaArrowRight className="inline-block" />
+            </Link>
+          </div>
           </div>
         </div>
       </div>

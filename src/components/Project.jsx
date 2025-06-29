@@ -20,6 +20,7 @@ function Projects() {
             <h3>Each project is a unique piece of development 🧩</h3>
             <div className="projects-grid">
                <ProBox
+               id={1}
                title="Residence"
                 img={Residence}
                 description="Let s hunt for your dream residence
@@ -34,6 +35,7 @@ Explore our range of beautiful properties with the addition of separate accommod
               /> 
             
               <ProBox
+                id={2}
                 title="WanderVenture"
                 img={Wander}
                 description="WanderVenture is a user-friendly online travel and tourism management website that is very helpful in finding your dream spot to visit. 
@@ -63,6 +65,7 @@ Explore our range of beautiful properties with the addition of separate accommod
            */}
 
               <ProBox
+                id={3}
                 title="Deliveryooo"
                 img={Deliveryooo}
                 description="Deliveryoo is the most trusted community-fueled platform that provides one convenient app for ride-sharing, food delivery, parcel & courier services in Bangladesh. 
@@ -91,6 +94,7 @@ Explore our range of beautiful properties with the addition of separate accommod
               /> 
 */}
               <ProBox
+                id={4}
                 title="Eat the best"
                 img={Eatgood}
                 description="Foodies is a site dedicated to quick meals. This shop has a wide selection of tasty salads and other dishes."
@@ -117,8 +121,8 @@ Explore our range of beautiful properties with the addition of separate accommod
                 icon="🚗"
 
               />
-*/}
               <ProBox
+                id={5}
                 title="VentureShop"
                 img={VentureShop}
                 description="Venture Shop web app is a React-based e-commerce site featuring anonymous login, sign-up, cart, wishlist, and more. Firebase was utilized for all of the above, plus file storage, user authentication, and product information."
@@ -131,9 +135,10 @@ Explore our range of beautiful properties with the addition of separate accommod
                 scrollY="-89%"
                 icon="🛒"
               />
-  
+ */} 
               <ProBox
-                title="DhakaFC Restro E-Commerce"
+                id={6}
+                title="DhakaFC Restro "
                 img={DhakaFC}
                 description="DhakaFC is a responsive Fast Food website,  noodles, burgers, chicken and more from the comfort of your own home."
                 techno1="HTML5"

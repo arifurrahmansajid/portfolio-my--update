@@ -22,10 +22,31 @@ function AboutMe() {
                 📍
               </h3>
               <p>
-              I have a wide range of knowledge in HTML, CSS, JavaScript, React, Tailwind, and Bootstarp making me an excellent candidate for the position of Junior Front-End Developer. I have extensive expertise creating and managing user-friendly, responsive websites. I am an expert at making interactive, modern user interfaces by using modern development tools and methodologies to write clean, optimized code. I am also an excellent team player who enjoys working in interdisciplinary groups to create cutting-edge online apps.
+                My programming journey began in University, where I was fascinated
+                by how websites work. I started with basic HTML and CSS, and soon
+                found myself building small projects for friends and family. Over the
+                years, I expanded my skills to JavaScript, React, and the full MERN
+                stack, always eager to learn new technologies and best practices.
+              </p>
+              <p>
+                I enjoy working on interactive, user-friendly web applications that
+                solve real-world problems. My favorite projects are those that
+                challenge me to think creatively and collaborate with others. I thrive
+                in team environments and love turning ideas into polished digital
+                experiences.
+              </p>
+              <p>
+                Outside of programming, I am passionate about football, painting, and
+                exploring new places. I believe that creativity and curiosity drive
+                innovation, both in code and in life. Whether I'm coding, playing
+                sports, or creating art, I always bring energy and enthusiasm to
+                everything I do.
               </p>
             </div>
           </div>
+
+          {/* Skills Section */}
+          
         </div>
       </section>
     </>

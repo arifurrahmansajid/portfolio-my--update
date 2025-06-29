@@ -5,14 +5,15 @@ import Projects from '../components/Project'
 import Footer from '../parts/Footer'
 import Hero from '../parts/Hero'
 import Navbar from '../parts/Navbar'
-//import AdditionalSkills from '../components/AdditionalSkills'
+import AdditionalSkills from '../components/AdditionalSkills'
 
 const Home = () => {
   return (
     <div>
-        <Navbar/>
+        <Navbar/> 
         <Hero/>
         <AboutMe/>
+        <AdditionalSkills/>
         <Projects/>
         
         <Contact/>

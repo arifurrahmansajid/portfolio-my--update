@@ -5,7 +5,8 @@ import Deliveryooo from "../images/image 2/Screenshot 2025-06-29 171703.png";
 import Eatgood from "../images/image 2/Screenshot 2025-06-29 172625.png";
 import Wander from "../images/image 2/Screenshot 2025-06-29 171114.png";
 import Residence from "../images/image 2/Screenshot 2025-06-29 170832.png";
-
+import Navbar from "../parts/Navbar";
+import Footer from "../parts/Footer";
 const projects = [
  {
     id: 1,
@@ -93,6 +94,7 @@ const ProjectDetails = () => {
   }
 
   return (
+    <>
     <div className="min-h-screen bg-gray-50 py-12 px-6 sm:px-8 lg:px-10">
       <div className="w-full max-w-7xl mx-auto">
         <Link 
@@ -171,6 +173,8 @@ const ProjectDetails = () => {
         </div>
       </div>
     </div>
+    <Footer/>
+    </>
   );
 };
 

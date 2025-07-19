@@ -1,119 +1,182 @@
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGitAlt, FaFigma, FaDatabase, FaTools, FaGraduationCap } from 'react-icons/fa';
+import React from "react";
+import Tilt from "react-parallax-tilt";
+import { 
+  FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaGitAlt, FaFigma, FaDatabase 
+} from 'react-icons/fa';
 import { SiTailwindcss, SiSass, SiMongodb, SiExpress } from 'react-icons/si';
-import { motion } from 'framer-motion';
 
-const skillCategories = [
+const SkillsInfo = [
   {
     title: "Frontend Development",
-    icon: <FaReact className="text-cyan-500" size={28} />,
     skills: [
-      { icon: <FaHtml5 size={24} />, name: "HTML5", color: "text-orange-600" },
-      { icon: <FaCss3Alt size={24} />, name: "CSS3", color: "text-blue-600" },
-      { icon: <FaJs size={24} />, name: "JavaScript", color: "text-yellow-400" },
-      { icon: <FaReact size={24} />, name: "React", color: "text-cyan-500" },
-      { icon: <SiTailwindcss size={24} />, name: "Tailwind CSS", color: "text-sky-400" },
-      { icon: <SiSass size={24} />, name: "Sass", color: "text-pink-500" }
+      {
+        name: "HTML5",
+        icon: <FaHtml5 className="text-orange-600 text-4xl" />
+      },
+      {
+        name: "CSS3",
+        icon: <FaCss3Alt className="text-blue-600 text-4xl" />
+      },
+      {
+        name: "JavaScript",
+        icon: <FaJs className="text-yellow-400 text-4xl" />
+      },
+      {
+        name: "React",
+        icon: <FaReact className="text-cyan-500 text-4xl" />
+      },
+      {
+        name: "Tailwind CSS",
+        icon: <SiTailwindcss className="text-sky-400 text-4xl" />
+      },
+      {
+        name: "Sass",
+        icon: <SiSass className="text-pink-500 text-4xl" />
+      }
     ]
   },
   {
-    title: "Backend Development",
-    icon: <FaNodeJs className="text-green-600" size={28} />,
+    title: "Backend & Database",
     skills: [
-      { icon: <FaNodeJs size={24} />, name: "Node.js", color: "text-green-600" },
-      { icon: <SiExpress size={24} />, name: "Express.js", color: "text-gray-800" },
-      { icon: <SiMongodb size={24} />, name: "MongoDB", color: "text-green-500" }
+      {
+        name: "Node.js",
+        icon: <FaNodeJs className="text-green-600 text-4xl" />
+      },
+      {
+        name: "Express.js",
+        icon: <SiExpress className="text-gray-800 dark:text-white text-4xl" />
+      },
+      {
+        name: "MongoDB",
+        icon: <SiMongodb className="text-green-500 text-4xl" />
+      }
     ]
   },
   {
     title: "Tools & Platforms",
-    icon: <FaTools className="text-gray-600" size={28} />,
     skills: [
-      { icon: <FaGitAlt size={24} />, name: "Git & GitHub", color: "text-orange-600" },
-      { icon: <FaFigma size={24} />, name: "Figma", color: "text-purple-500" },
-      { icon: <FaDatabase size={24} />, name: "Database Basics", color: "text-gray-800" }
+      {
+        name: "Git & GitHub",
+        icon: <FaGitAlt className="text-orange-600 text-4xl" />
+      },
+      {
+        name: "Figma",
+        icon: <FaFigma className="text-purple-500 text-4xl" />
+      },
+      {
+        name: "Database Basics",
+        icon: <FaDatabase className="text-gray-800 dark:text-white text-4xl" />
+      }
     ]
   }
 ];
 
-const education = {
-  title: "Education",
-  icon: <FaGraduationCap className="text-blue-600" size={28} />,
-  description: [
-    "Bachelor of Science in Computer Science & Engineering",
-    "Notre Dame University Bangladesh",
-    "Dhaka, Bangladesh",
-    "2020 - 2025"
-  ]
-};
-
-const AdditionalSkills = () => {
+const Skills = () => {
   return (
-    <section className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-        viewport={{ once: true }}
-        className="max-w-7xl mx-auto"
-      >
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 text-gray-800">
-          My <span className="text-blue-600">Skills</span> & Expertise
-        </h2>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {/* Skills Categories */}
-          {skillCategories.map((category, index) => (
-            <motion.div
-              key={index}
-              whileHover={{ y: -8, scale: 1.04 }}
-              whileTap={{ scale: 0.98 }}
-              className="bg-gradient-to-br from-blue-50 via-white to-blue-100 rounded-3xl shadow-2xl p-8 hover:shadow-3xl transition-all duration-300 border-2 border-blue-100 group"
-            >
-              <div className="flex items-center mb-6">
-                <span className="mr-4 text-3xl group-hover:scale-110 transition-transform duration-200">{category.icon}</span>
-                <h3 className="text-2xl font-extrabold text-blue-700 group-hover:text-blue-900 transition-colors duration-200">
-                  {category.title}
-                </h3>
-              </div>
-              <ul className="space-y-4">
-                {category.skills.map((skill, i) => (
-                  <motion.li 
-                    key={i} 
-                    whileHover={{ x: 8 }}
-                    className="flex items-center bg-white rounded-xl px-4 py-2 shadow-sm hover:bg-blue-50 transition-colors duration-200"
-                  >
-                    <span className={`mr-4 text-2xl ${skill.color}`}>{skill.icon}</span>
-                    <span className="text-lg text-gray-800 font-semibold">{skill.name}</span>
-                  </motion.li>
-                ))}
-              </ul>
-            </motion.div>
-          ))}
-
-          {/* Education */}
-          <motion.div
-            whileHover={{ y: -8, scale: 1.04 }}
-            whileTap={{ scale: 0.98 }}
-            className="bg-gradient-to-br from-blue-50 via-white to-blue-100 rounded-3xl shadow-2xl p-8 hover:shadow-3xl transition-all duration-300 border-2 border-blue-100"
+    <section
+      id="skills"
+      className="min-h-[80vh] px-6 pt-10 bg-white dark:bg-gray-900 pb-6"
+    >
+      <h2 className="text-2xl md:text-3xl md:font-extrabold text-center text-gray-900 dark:text-white tracking-wide">
+        Skills
+      </h2>
+      <div className="w-24 h-1 bg-indigo-500 mx-auto mt-2"></div>
+      <p className="text-gray-600 dark:text-gray-300 mt-2 text-lg max-w-xl mx-auto text-center mb-8">
+        The technologies and tools I use to build modern web applications
+      </p>
+      
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl mx-auto">
+        {/* Frontend Card - Full Width */}
+        <div className="md:col-span-2">
+          <Tilt
+            tiltMaxAngleX={10}
+            tiltMaxAngleY={10}
+            scale={1.05}
+            transitionSpeed={500}
           >
-            <div className="flex items-center mb-6">
-              <span className="mr-4 text-3xl">{education.icon}</span>
-              <h3 className="text-2xl font-extrabold text-blue-700">
-                {education.title}
+            <div className="bg-white dark:bg-gray-800 rounded-3xl p-6 shadow-lg border border-gray-200 dark:border-gray-700">
+              <h3 className="text-2xl md:text-3xl font-semibold mb-6 text-center text-indigo-600 dark:text-indigo-400">
+                {SkillsInfo[0].title}
               </h3>
+              <div className="flex flex-wrap gap-6 justify-center">
+                {SkillsInfo[0].skills.map(({ name, icon }) => (
+                  <div
+                    key={name}
+                    className="flex flex-col items-center space-y-3 p-4 w-24 rounded-xl cursor-pointer hover:bg-indigo-50 dark:hover:bg-indigo-900/30 transition"
+                  >
+                    <div className="flex items-center justify-center w-12 h-12">
+                      {icon}
+                    </div>
+                    <p className="text-sm font-medium text-gray-700 dark:text-gray-300 text-center">
+                      {name}
+                    </p>
+                  </div>
+                ))}
+              </div>
             </div>
-            <div className="space-y-4">
-              {education.description.map((line, index) => (
-                <p key={index} className="text-lg text-gray-800 font-medium">
-                  {line}
-                </p>
+          </Tilt>
+        </div>
+
+        {/* Backend Card - Half Width */}
+        <Tilt
+          tiltMaxAngleX={10}
+          tiltMaxAngleY={10}
+          scale={1.05}
+          transitionSpeed={500}
+        >
+          <div className="bg-white dark:bg-gray-800 rounded-3xl p-6 shadow-lg border border-gray-200 dark:border-gray-700 h-full">
+            <h3 className="text-2xl md:text-3xl font-semibold mb-6 text-center text-indigo-600 dark:text-indigo-400">
+              {SkillsInfo[1].title}
+            </h3>
+            <div className="flex flex-wrap gap-6 justify-center">
+              {SkillsInfo[1].skills.map(({ name, icon }) => (
+                <div
+                  key={name}
+                  className="flex flex-col items-center space-y-3 p-4 w-24 rounded-xl cursor-pointer hover:bg-indigo-50 dark:hover:bg-indigo-900/30 transition"
+                >
+                  <div className="flex items-center justify-center w-12 h-12">
+                    {icon}
+                  </div>
+                  <p className="text-sm font-medium text-gray-700 dark:text-gray-300 text-center">
+                    {name}
+                  </p>
+                </div>
               ))}
             </div>
-          </motion.div>
-        </div>
-      </motion.div>
+          </div>
+        </Tilt>
+
+        {/* Tools Card - Half Width */}
+        <Tilt
+          tiltMaxAngleX={10}
+          tiltMaxAngleY={10}
+          scale={1.05}
+          transitionSpeed={500}
+        >
+          <div className="bg-white dark:bg-gray-800 rounded-3xl p-6 shadow-lg border border-gray-200 dark:border-gray-700 h-full">
+            <h3 className="text-2xl md:text-3xl font-semibold mb-6 text-center text-indigo-600 dark:text-indigo-400">
+              {SkillsInfo[2].title}
+            </h3>
+            <div className="flex flex-wrap gap-6 justify-center">
+              {SkillsInfo[2].skills.map(({ name, icon }) => (
+                <div
+                  key={name}
+                  className="flex flex-col items-center space-y-3 p-4 w-24 rounded-xl cursor-pointer hover:bg-indigo-50 dark:hover:bg-indigo-900/30 transition"
+                >
+                  <div className="flex items-center justify-center w-12 h-12">
+                    {icon}
+                  </div>
+                  <p className="text-sm font-medium text-gray-700 dark:text-gray-300 text-center">
+                    {name}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </Tilt>
+      </div>
     </section>
   );
 };
 
-export default AdditionalSkills;
+export default Skills;

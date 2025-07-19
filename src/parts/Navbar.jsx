@@ -28,6 +28,12 @@ function Navbar() {
           <li>
             <a href="#about">About</a>
           </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#education">Education</a>
+          </li>
 
           <li>
             <a href="#projects">Projects</a>
@@ -57,6 +63,13 @@ function Navbar() {
 
           <li onClick={() => hamburgerMenu()}>
             <a href="#about">About</a>
+          </li>
+
+          <li onClick={() => hamburgerMenu()}>
+            <a href="#skills">Skills</a>
+          </li>
+          <li onClick={() => hamburgerMenu()}>
+            <a href="#education">Education</a>
           </li>
 
           <li onClick={() => hamburgerMenu()}>

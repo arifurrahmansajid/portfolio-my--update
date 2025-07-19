@@ -21,6 +21,54 @@ const projects = [
     challenges: "Integrating property search and filtering, responsive design for all devices.",
     improvements: "Add virtual tours and advanced search filters."
   },
+   {
+    id: 2,
+    title: "WanderVenture",
+    img: Wander,
+    stack: ["ReactJS", "NodeJS"],
+    description:
+      "WanderVenture is a user-friendly online travel and tourism management website that is very helpful in finding your dream spot to visit.",
+    live: "https://effortless-semolina-2fc164.netlify.app",
+    github: "https://github.com/arifurrahmansajid/WanderVenture",
+    challenges: "Integrating travel APIs, optimizing for performance, and building a scalable backend.",
+    improvements: "Add user reviews, booking system, and AI-based recommendations."
+  },
+  {
+    id: 3,
+    title: "Deliveryooo",
+    img: Deliveryooo,
+    stack: ["ReactJS", "CSS"],
+    description:
+      "Deliveryoo is the most trusted community-fueled platform that provides one convenient app for ride-sharing, food delivery, parcel & courier services in Bangladesh.",
+    live: "https://deliveryoobd.netlify.app/",
+    github: "https://github.com/arifurrahmansajid/Deliveryoo",
+    challenges: "Managing real-time order tracking and multi-service integration.",
+    improvements: "Add mobile app and expand to more cities."
+  },
+  {
+    id: 4,
+    title: "Eat the best",
+    img: Eatgood,
+    stack: ["HTML", "CSS", "React Icons"],
+    description:
+      "Foodies is a site dedicated to quick meals. This shop has a wide selection of tasty salads and other dishes.",
+    live: "https://stately-nougat-dc92ba.netlify.app",
+    github: "https://github.com/arifurrahmansajid/Food-website?tab=readme-ov-file",
+    challenges: "Building a clean UI and managing menu data.",
+    improvements: "Add user accounts and online ordering."
+  },
+  {
+    id: 6,
+    title: "DhakaFC Restro ",
+    img: DhakaFC,
+    stack: ["HTML5", "CSS", "Vanila JS"],
+    description:
+      "DhakaFC is a responsive Fast Food website, noodles, burgers, chicken and more from the comfort of your own home.",
+    live: "https://dhakafcbd.netlify.app/",
+    github: "https://github.com/arifurrahmansajid/dhakafc",
+    challenges: "Responsive design and menu management.",
+    improvements: "Add online ordering and delivery tracking."
+  }
   // ... other projects
 ];
 

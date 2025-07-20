@@ -1,47 +1,23 @@
 import React from "react";
 import { useParams, Link } from "react-router-dom";
-import DhakaFC from "../images/image 2/Screenshot 2025-06-29 172946.png";
-import Deliveryooo from "../images/image 2/Screenshot 2025-06-29 171703.png";
+import DhakaFC from "../images/image 2/Screenshot 2025-07-20 093000.png";
+import Deliveryooo from "../images/image 2/Screenshot 2025-07-20 092923.png";
 import Eatgood from "../images/image 2/Screenshot 2025-06-29 172625.png";
 import Wander from "../images/image 2/Screenshot 2025-06-29 171114.png";
-import Residence from "../images/image 2/Screenshot 2025-06-29 170832.png";
+import Residence from "../images/image 2/Screenshot 2025-07-20 092705.png";
 import Navbar from "../parts/Navbar";
 import Footer from "../parts/Footer";
 
 const projects = [
   {
-    id: 1,
-    title: "Residence",
-    img: Residence,
-    stack: ["React Js", "Tailwind CSS"],
-    description:
-      "Let's hunt for your dream residence. Explore our range of beautiful properties with the addition of separate accommodation suitable for you.",
-    live: "https://residence-three.vercel.app/",
-    github: "https://github.com/arifurrahmansajid/Residence",
-    challenges: "Integrating property search and filtering, responsive design for all devices.",
-    improvements: "Add virtual tours and advanced search filters."
-  },
-   {
-    id: 2,
-    title: "WanderVenture",
-    img: Wander,
-    stack: ["ReactJS", "NodeJS"],
-    description:
-      "WanderVenture is a user-friendly online travel and tourism management website that is very helpful in finding your dream spot to visit.",
-    live: "https://effortless-semolina-2fc164.netlify.app",
-    github: "https://github.com/arifurrahmansajid/WanderVenture",
-    challenges: "Integrating travel APIs, optimizing for performance, and building a scalable backend.",
-    improvements: "Add user reviews, booking system, and AI-based recommendations."
-  },
-  {
     id: 3,
-    title: "Deliveryooo",
+    title: "LAZEA",
     img: Deliveryooo,
-    stack: ["ReactJS", "CSS"],
+    stack: ["ReactJS", "ExpressJS"],
     description:
-      "Deliveryoo is the most trusted community-fueled platform that provides one convenient app for ride-sharing, food delivery, parcel & courier services in Bangladesh.",
-    live: "https://deliveryoobd.netlify.app/",
-    github: "https://github.com/arifurrahmansajid/Deliveryoo",
+      "LAZEA is a modern, responsive web application dedicated to promoting a plant-based lifestyle. It allows users to explore a wide variety of plant-based items, view detailed descriptions, and benefit from an engaging, interactive UI.",
+    live: "https://plant-website-a0f51.web.app/",
+    github: "https://github.com/arifurrahmansajid/LAZEA",
     challenges: "Managing real-time order tracking and multi-service integration.",
     improvements: "Add mobile app and expand to more cities."
   },
@@ -59,16 +35,40 @@ const projects = [
   },
   {
     id: 6,
-    title: "DhakaFC Restro ",
+    title: "Event Explorer ",
     img: DhakaFC,
     stack: ["HTML5", "CSS", "Vanila JS"],
     description:
-      "DhakaFC is a responsive Fast Food website, noodles, burgers, chicken and more from the comfort of your own home.",
-    live: "https://dhakafcbd.netlify.app/",
-    github: "https://github.com/arifurrahmansajid/dhakafc",
+      "Event Explorer is a dynamic platform to discover and connect with events across music, sports, tech, art, and more.",
+    live: "https://dynamic-lily-a7c45f.netlify.app/",
+    github: "https://github.com/arifurrahmansajid/Event-Explorer-1",
     challenges: "Responsive design and menu management.",
     improvements: "Add online ordering and delivery tracking."
-  }
+  },
+  {
+    id: 1,
+    title: "WanderVenture",
+    img: Residence,
+    stack: ["React Js", "Tailwind CSS"],
+    description:
+      "Let's hunt for your dream residence. Explore our range of beautiful properties with the addition of separate accommodation suitable for you.",
+    live: "https://plant-website-a0f51.web.app/",
+    github: "https://hotel-appoinmnet-system.web.app/",
+    challenges: "Integrating Hotel search and filtering, responsive design for all devices.",
+    improvements: "Add virtual tours and advanced search filters."
+  },
+   {
+    id: 2,
+    title: "Nova Tourism",
+    img: Wander,
+    stack: ["ReactJS", "NodeJS"],
+    description:
+      "Nova Tourism is a user-friendly online travel and tourism management website that is very helpful in finding your dream spot to visit.",
+    live: "https://nova-tourism.web.app/",
+    github: "https://github.com/arifurrahmansajid/WanderVenture",
+    challenges: "Integrating travel APIs, optimizing for performance, and building a scalable backend.",
+    improvements: "Add user reviews, booking system, and AI-based recommendations."
+  },
   // ... other projects
 ];
 

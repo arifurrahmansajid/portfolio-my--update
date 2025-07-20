@@ -1,14 +1,14 @@
 import VentureShop from "../images/VentureShop-FullView.png";
-import DhakaFC from "../images/DhakaFC-FullView.png";
+import DhakaFC from "../images/screencapture-dynamic-lily-a7c45f-netlify-app-2025-07-06-11_20_45.png";
 import ProBox from "./ProBox.jsx";
 //import FoodiesWebApp from "../images/FoodiesWebsite-Full.png";
 import HyperTouch from "../images/HyperTouch-fulllview.png";
 //import Gymnation from "../images/GymNation.png"
-import Deliveryooo from "../images/Deliveryoo Web.png"
+import Deliveryooo from "../images/screencapture-plant-website-a0f51-web-app-2025-07-06-11_08_19.png"
 import TaxiUp from "../images/screencapture-localhost-3000-2024-11-24-21_54_08 (1).png"
 import Eatgood from "../images/EATBEST.png"
 import Wander from "../images/Wanderventure.png"
-import Residence from "../images/Residence.png"
+import Residence from "../images/screencapture-hotel-appoinmnet-system-web-app-2025-07-06-11_15_28.png"
 
 function Projects() {
   return (
@@ -21,7 +21,7 @@ function Projects() {
             <div className="projects-grid">
                <ProBox
                id={1}
-               title="Residence"
+               title="WanderVenture"
                 img={Residence}
                 description="Let s hunt for your dream residence
 Explore our range of beautiful properties with the addition of separate accommodation suitable for you."
@@ -36,14 +36,14 @@ Explore our range of beautiful properties with the addition of separate accommod
             
               <ProBox
                 id={2}
-                title="WanderVenture"
+                title="Nova Tourism"
                 img={Wander}
-                description="WanderVenture is a user-friendly online travel and tourism management website that is very helpful in finding your dream spot to visit. 
+                description="Nova Tourism is a user-friendly online travel and tourism management website that is very helpful in finding your dream spot to visit. 
                 "
                 techno1="ReactJS"
                 techno2="NodeJS"
                 code="https://github.com/arifurrahmansajid/WanderVenture"
-                demo="https://effortless-semolina-2fc164.netlify.app"
+                demo="https://nova-tourism.web.app/"
                 scrollY="-74%"
                 icon="✈️"
 
@@ -66,16 +66,16 @@ Explore our range of beautiful properties with the addition of separate accommod
 
               <ProBox
                 id={3}
-                title="Deliveryooo"
+                title="LAZEA"
                 img={Deliveryooo}
-                description="Deliveryoo is the most trusted community-fueled platform that provides one convenient app for ride-sharing, food delivery, parcel & courier services in Bangladesh. 
+                description="LAZEA is a modern, responsive web application dedicated to promoting a plant-based lifestyle. It allows users to explore a wide variety of plant-based items, view detailed descriptions, and benefit from an engaging, interactive UI. 
                 "
                 techno1="ReactJS"
-                techno2="CSS"
-                code="https://github.com/arifurrahmansajid/Deliveryoo"
-                demo="https://deliveryoobd.netlify.app/"
+                techno2="ExpressJS"
+                code="https://github.com/arifurrahmansajid/LAZEA"
+                demo="https://plant-website-a0f51.web.app/"
                 scrollY="-74%"
-                icon="🚚"
+                icon="🌱"
               //cName="reversed-proj"
               />
 
@@ -138,16 +138,16 @@ Explore our range of beautiful properties with the addition of separate accommod
  */} 
               <ProBox
                 id={6}
-                title="DhakaFC Restro "
+                title="Event Explorer"
                 img={DhakaFC}
-                description="DhakaFC is a responsive Fast Food website,  noodles, burgers, chicken and more from the comfort of your own home."
-                techno1="HTML5"
-                techno2="CSS"
+                description="Event Explorer is a dynamic platform to discover and connect with events across music, sports, tech, art, and more."
+                techno1="ReaactJS"
+                techno2="TailwindCSS"
                 techno3="Vanila JS"
-                code="https://github.com/arifurrahmansajid/dhakafc"
-                demo="https://dhakafcbd.netlify.app/"
+                code="https://github.com/arifurrahmansajid/Event-Explorer-1"
+                demo="https://dynamic-lily-a7c45f.netlify.app/"
                 scrollY="-71%"
-                icon="🛒"
+                icon="🎫"
 
               />
              
